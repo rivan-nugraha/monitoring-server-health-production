@@ -78,30 +78,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/login": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/login",
-      "dataRoute": "/login.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/admin": {
       "experimentalBypassFor": [
         {
@@ -149,13 +125,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/login": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/login",
+      "dataRoute": "/login.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "8824dfef67bca544cf72f3a902a331aa",
-    "previewModeSigningKey": "280814ee1edcc907c0db1c9f595e0e9334701b8339be111bcb9d288993a7facc",
-    "previewModeEncryptionKey": "8686aca040e741208a0d4c8c5800fba46afdc31c1d96eece6cab3643a20eb59f"
+    "previewModeId": "67d94d445d9b7d0d56050032cd3d6b55",
+    "previewModeSigningKey": "aefe24ee9a6f436632afe77e9f7c303792b8c2ee60b5e728370cebcb89f80b8b",
+    "previewModeEncryptionKey": "02f454d0da5f54870f0b13fc681c7d5333c51e527ccf4d18c0cfdfcd4cc33887"
   }
 }
