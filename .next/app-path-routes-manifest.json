@@ -1,13 +1,13 @@
 {
   "/_not-found/page": "/_not-found",
-  "/api/admin/user/route": "/api/admin/user",
   "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
-  "/api/setup/route": "/api/setup",
-  "/favicon.ico/route": "/favicon.ico",
   "/api/admin/user/[_id]/route": "/api/admin/user/[_id]",
+  "/favicon.ico/route": "/favicon.ico",
+  "/api/admin/user/route": "/api/admin/user",
+  "/api/setup/route": "/api/setup",
   "/403/page": "/403",
   "/page": "/",
   "/login/page": "/login",
-  "/admin/users/page": "/admin/users",
-  "/admin/page": "/admin"
+  "/admin/page": "/admin",
+  "/admin/users/page": "/admin/users"
 }
